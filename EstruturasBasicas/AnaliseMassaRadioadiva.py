@@ -7,13 +7,16 @@ grama. Escreva a massa inicial, massa final e o tempo calculado.
 '''
 
 massainicial = float(input('Informe a massa em gramas: '))
-massafinal = massainicial
+massaatual = massainicial
 tempo = 0
-while(massafinal > 0.5):
-    massafinal = massafinal / 2
+while(massaatual > 0.5):
+    massaatual = massaatual / 2
     tempo = tempo + 50
-
+    print('-------------')
+    print(f'Massa atual: {massaatual}g')
+    print(f'Tempo atual: {tempo}s')
+print('*************************************')
 print(f'Massa inicial era: {massainicial}')
-print(f'Tempo calculado foi: {tempo}')
-print(f'Massa final é: {massafinal}')
+print(f'Tempo calculado foi: {tempo}s')
+print(f'Massa final é: {massaatual}g')
 
