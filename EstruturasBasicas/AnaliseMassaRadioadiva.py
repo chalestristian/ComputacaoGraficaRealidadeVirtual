@@ -16,7 +16,7 @@ while(massaatual > 0.5):
     print(f'Massa atual: {massaatual}g')
     print(f'Tempo atual: {tempo}s')
 print('*************************************')
-print(f'Massa inicial era: {massainicial}')
+print(f'Massa inicial era: {massainicial}g')
 print(f'Tempo calculado foi: {tempo}s')
 print(f'Massa final é: {massaatual}g')
 
